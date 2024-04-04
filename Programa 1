@@ -1,0 +1,10 @@
+//Questão 1-Algoritmo para mostrar a mensagem "Olá, mundo!" na tela.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 1 {
+	funcao inicio() {
+
+		escreva("Olá, mundo!\n")
+
+	}
+}
