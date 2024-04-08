@@ -1,0 +1,18 @@
+//Questão 9-Algoritmo para ler um valor real e convertê-lo em outra moeda:Real para Dólar.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 9 {
+
+    inclua biblioteca Matematica --> m
+
+	funcao inicio() {
+		real dinheiroReal, dinheiroDolar, dolar
+
+		escreva("Informe o valor em posse: R$")
+		leia(dinheiroReal)
+		dinheiroDolar = dinheiroReal/3.45
+		dolar = m.arredondar(dinheiroDolar,3)
+		escreva("O usuário poderá comprar U$ ",dolar)
+
+	}
+}
