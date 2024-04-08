@@ -1,0 +1,19 @@
+//Questão 8-Algoritmo para ler uma distância em metros, calcular e apresentar na tela a sua equivalência em outras unidades de medidas.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 8 {
+	funcao inicio() {
+		real dM, dKm, dHm, dDam, dDm, dCm, dMm
+
+		escreva("Informe a distância em metros: ")
+		leia(dM)
+		dKm = dM/1000
+		dHm = dM/100
+		dDam = dM/10
+		dDm = dM*10
+		dCm = dM*100
+		dMm = dM*1000
+		escreva("A distância ",dM," equivale a:\n",dKm,"km  ",dHm,"hm\n",dDam,"dam  ",dDm,"dm\n",dCm,"cm  ",dMm,"mm\n")
+
+	}
+}
