@@ -1,0 +1,16 @@
+//Questão 4-Algoritmo para ler dois números inteiros, calcule a soma e apresente o resultado na tela.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 4 {
+	funcao inicio() {
+		inteiro num1, num2,resultado
+
+		escreva("Digite o primeiro número: ")
+		leia(num1)
+		escreva("Digite o segundo: ")
+		leia(num2)
+		resultado = num1+num2
+		escreva("A soma de ", num1," e ", num2," é ",resultado)
+
+	}
+}
