@@ -1,0 +1,23 @@
+//Questão 16 - Faça um algoritmo que leia a quantidade de cigarros e os anos que uma pessoa fuma, calcule e mostrea na tela quantos dias de vida a pessoa perdeu
+//Autor: Vitória Kamilly lago Soares
+
+programa16 {
+	funcao inicio() {
+		inteiro min, dias, cigarrosPorDia, cigarroTotal, anosDeFumo, diasPerdidos
+		
+		escreva("Quantos cigarros fuma por dia? ")
+		leia(cigarrosPorDia)
+		
+		escreva("Há quantos anos fuma? ")
+		leia(anosDeFumo)
+		
+		dias = anosDeFumo * 365
+		min = dias * 1440
+		
+		cigarroTotal = cigarrosPorDia * dias
+		diasPerdidos =  cigarroTotal * 10/1440
+		
+		escreva("Você perdeu ",diasPerdidos," dias de vida.")
+
+	}
+}
