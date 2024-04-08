@@ -1,0 +1,17 @@
+//Questão 10-Algoritmo para ler as medidas de uma parede e calcular a área a ser pintada e quantos litros de tinta serão utilizadas.
+//Autor: Vitória Kamilly Lago Soares
+
+programa10 {
+	funcao inicio() {
+		real altura, largura, area, pintura
+
+		escreva("Qual a altura da parede? ")
+		leia(altura)
+		escreva("Qual a largura da parede? ")
+		leia(largura)
+		area = altura*largura
+		pintura = area/2
+		escreva("A parede possui ",area," metros de área para serem pintados.\nSerá necessário ", pintura, " litros de tinta para pintá-la.")
+
+	}
+}
