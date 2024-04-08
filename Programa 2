@@ -1,0 +1,11 @@
+//Questão 2-Algoritmo para ler o nome do usuário e escrever uma mensagem de saudação.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 2 {
+	funcao inicio() {
+		cadeia nome
+		escreva("Informe o seu nome: ")
+		leia(nome)
+		escreva("Olá, ",nome,"!Estou honrada com a sua presença.\n")
+	}
+}
