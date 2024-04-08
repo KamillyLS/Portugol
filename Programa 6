@@ -1,0 +1,15 @@
+//Questão 6-Algoritmo para ler um valor inteiro e apresentar o seu antecessor e o seu sucessor.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 6 {
+	funcao inicio() {
+		inteiro num,antecessor,sucessor
+
+		escreva("Informe um número: ")
+		leia(num)
+		antecessor = num-1
+		sucessor = num+1
+		escreva("O antecessor de ",num," é ", antecessor,".\n","O sucessor de ",num," é ",sucessor,"." )	
+
+	}
+}
