@@ -1,0 +1,15 @@
+//Questão 13-Algoritmo para ler o salário de um funcionário, calcular o bônus e apresentar na tela o seu novo salário.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 13 {
+	funcao inicio() {
+		real salario, bonus, novosalario
+
+		escreva("Informe o valor do salário: ")
+		leia(salario)
+		bonus = salario*0.15
+		novosalario = salario+bonus
+		escreva("O salário novo a ser recebido é: R$",novosalario)
+
+	}
+}
