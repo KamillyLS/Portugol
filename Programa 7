@@ -1,0 +1,15 @@
+//Questão 7-Algoritmo para ler um valor real, calcular o dobro e a terça parte e apresentar na tela.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 7 {
+	funcao inicio() {
+		real num,dobro,tercaParte
+
+		escreva("Informe o número: ")
+		leia(num)
+		dobro = num*2
+		tercaParte = num/3
+		escreva("O dobro do ",num," é ",dobro,".\nA terça parte do ",num," é ",tercaParte,".")
+
+	}
+}
