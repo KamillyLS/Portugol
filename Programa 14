@@ -1,0 +1,18 @@
+//Questão 14-Algoritmo para ler os dias e os quilômetros percorridos de um carro alugado, calcular os gastos e apresentar na tela o preço a ser pago.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 14 {
+	funcao inicio() {
+		real dias, dKM, precoDia, precoKm, precoTotal
+
+		escreva("Informe os dias que o carro está alugado: ")
+		leia(dias)
+		escreva("Informe os quilômetros percorridos: ")
+		leia(dKM)
+		precoDia = dias*90
+		precoKm = dKM*0.20
+		precoTotal = precoDia+precoKm
+		escreva("O preço total a pagar é: R$",precoTotal)
+
+	}
+}
