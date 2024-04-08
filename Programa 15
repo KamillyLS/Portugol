@@ -1,0 +1,14 @@
+//Questão 15-Algoritmo para ler as horas trabalhadas de um funcionário, calcular e apresentar na tela o quanto ele receberá.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 15 {
+	funcao inicio() {
+		real dias, horas
+
+		escreva("Informe os dias que foram trabalhados: ")
+		leia(dias)
+		horas = dias*8
+		escreva("O salário a ser recebido é: R$",horas*25)
+
+	}
+}
