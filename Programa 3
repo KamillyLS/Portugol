@@ -1,0 +1,15 @@
+//Questão 3-Algoritmo que leia o nome e o salário de um funcionário e mostre na tela o nome junto com o salário.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 3 {
+    
+	funcao inicio() {
+		cadeia nome
+		real salario
+		escreva("Informe o seu nome: ")
+		leia(nome)
+		escreva("Informe o salário recebido: ")
+		leia(salario)
+		escreva("O(a) funcionário(a) ",nome, ",recebeu o salário de ",salario," no mês de junho.")
+	}
+}
