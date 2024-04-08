@@ -1,0 +1,18 @@
+//Questão 11-Algoritmo para ler os três valores de uma equação do segundo grau, calcular e apresentar o seu delta.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 11 {
+	funcao inicio() {
+		inteiro a, b, c, delta
+
+		escreva("Informe o primeiro termo da equação: ")
+		leia(a)
+		escreva("Informe o segundo termo da equação: ")
+		leia(b)
+		escreva("Informe o terceiro termo da equação: ")
+		leia(c)
+		delta = ((b*b)-(4 * a * c))
+		escreva("O delta da equação é: ", delta)
+
+	}
+}
