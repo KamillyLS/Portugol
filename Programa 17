@@ -1,0 +1,19 @@
+//Questão 17 - Faca um algoritmo que receba a velocidade de um carro e diga se ele foi multado se a velocidade for maior que 80km.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 17 {
+	funcao inicio() {
+		real velocidade
+		
+		escreva("Qual a velocidade do carro? ")
+		leia(velocidade)
+		
+		se(velocidade>80){
+			escreva("Você foi multado.\n")
+			escreva("Terá que pagar uma multa de ",(velocidade-80)*5)
+			
+		}senao{
+			escreva("Parabéns, a velocidade não ultrapassou os limites, continue assim.")
+    }
+		}
+}
