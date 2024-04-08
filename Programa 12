@@ -1,0 +1,14 @@
+//Questão 12-Algoritmo para ler o preço de um produto, calcular e apresentar na tela o desconto que terá.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 12 {
+	funcao inicio() {
+		real preco, precoDesconto
+		
+		escreva("Informe o preço do produto: ")
+		leia(preco)
+		precoDesconto = preco*0.05
+		escreva("O preço promocional do produto é: R$",preco-precoDesconto)
+
+	}
+}
