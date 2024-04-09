@@ -1,0 +1,22 @@
+//Questão 18 - Faça um algoritmo que leia a data de nascimento de uma pessoa, calcule e mostre na tela se ela já pode votar.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 18 {
+	funcao inicio() {
+		inteiro idade, ano
+		
+		escreva("informe a sua data de nascimento: ")
+		leia(ano)
+		
+    idade = 2024-ano
+		se(idade<16){
+			escreva("Você ainda não possui idade para votar.")	
+			}
+		se(idade<18 e idade>=16){
+				escreva("Já tem idade para votar,mas é facultativo.")
+			}
+    se(idade>18){
+				escreva("Já tem idade para votar e é obrigatório.")
+			}
+		}
+}
