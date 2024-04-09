@@ -1,0 +1,29 @@
+//Questão 19 - Faça um algoritmo que leia duas notas de um aluno, calcule a média e mostre na tela qual seu rendimento juntamente com a média.
+//Autor: Vitória Kamilly Lago Soares 
+
+programa 19 {
+	funcao inicio () {
+		cadeia nome 
+		real nota1, nota2, media
+		
+		escreva("Informe o seu nome: ")
+		leia(nome)
+		
+		escreva("Informe a primeira nota: ")
+		leia(nota1)
+		
+		escreva("Informe a segunda nota: ")
+		leia(nota2)
+		
+		media = (nota1+nota2)/2
+		
+		se(media<7){
+			escreva(nome,", teve um péssimo rendimento.")
+			escreva("A sua média foi ", media)
+		}
+		se(media>7){
+			escreva(nome,", teve um ótimo rendimento.")
+			escreva("A sua média foi ", media)
+		}
+	}
+}
