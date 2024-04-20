@@ -1,0 +1,28 @@
+//Escreva um algoritmo que leia dois números inteiros e compare-os, mostrando na tela uma das mensagens abaixo:
+//- O primeiro valor é o maior
+//- O segundo valor é o maior
+//- Não existe valor maior, os dois são iguais
+//Autor: Vitória Kamilly Lago Soares
+
+programa 26{
+	funcao inicio() {
+		inteiro A, B
+		
+ 	    escreva("Informe o primeiro número: ")
+ 	    leia(A)
+ 	    escreva("Informe o segundo número: ")
+ 	    leia(B)
+ 	    
+ 	    se(A>B){
+ 	        escreva("O primeiro valor é o maior.")
+ 	    }
+ 	    senao
+ 	    {
+ 	    se(A<B){
+ 	        escreva("O segundo valor é o maior.")
+ 	    }senao{
+ 	        escreva("Não existe valor maior, os dois são iguais.")
+ 	    }
+ 	  }
+	}
+}
