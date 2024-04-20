@@ -1,0 +1,18 @@
+//Faça um algoritmo que leia um determinado ano e mostre se ele é ou nãoBISSEXTO.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 21{
+	funcao inicio(){
+		inteiro ano 
+		
+		escreva("Informe o ano desejado: ")
+		leia(ano)
+		
+		se(ano%400==0 ou ano%4==0 e nao(ano%100==0)){
+			escreva(ano, " é bissexto.")
+		}
+    senao{
+			escreva(ano," não é bissexto.")
+		}
+	}
+}
