@@ -1,0 +1,21 @@
+//Faça um algoritmo que pergunte a distância que um passageiro deseja percorrer em Km. Calcule o preço da passagem, cobrando R$0.50 por Km para
+//viagens até 200Km e R$0.45 para viagens mais longas.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 24{
+  funcao inicio() {
+    cadeia distancia,passagem
+
+    escreva("Informe a distância em Km que deseja a ser percorrer: ")
+    leia(distancia)
+
+    se(distancia ==<200){
+      passagem = distancia*0.50
+      escreva("A passagem custará R$",passagem, " reais.")
+    }
+    se(distancia>200){
+      passagem = distancia*0.45
+      escreva("A passagem custará R$",passagem, " reais.")
+    }
+  }
+}
