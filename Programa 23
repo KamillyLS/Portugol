@@ -1,0 +1,30 @@
+//Numa promoção exclusiva para o Dia da Mulher, uma loja quer dar descontos para todos, mas especialmente para mulheres. Faça um programa que leia nome,
+//sexo e o valor das compras do cliente e calcule o preço com desconto. Sabendo que:
+//- Homens ganham 5% de desconto
+//- Mulheres ganham 13% de desconto
+//Autor: Vitória Kamilly Lago Soares
+
+programa 23{
+  funcao inicio() {
+    cadeia nome, sexo
+    real valor_compras,desconto
+
+    escreva("Informe o seu nome: ")
+    leia(nome)
+
+    escreva("Informe o seu sexo:(femenino ou masculino) ")
+    leia(sexo)
+
+    escreva("Informe o valor das compras: ")
+    leia(valor_compras)
+
+    se(sexo == "feminino"){
+      desconto = valor_compras*0.13
+      escreva("O valor das compras será R$",valor_compras-desconto, " reais.")
+    }
+    se(sexo == "masculino"){
+      desconto = valor_compras*0.05
+      escreva("O valor das compras será R$",valor_compras-desconto, " reais.")
+    }
+  }
+}
