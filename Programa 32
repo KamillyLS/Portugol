@@ -1,0 +1,30 @@
+//Crie um jogo onde o computador vai sortear um número entre 1 e 5 ojogador vai tentar descobrir qual foi o valor sorteado.
+//Autor: Vitória Kamilly Lago Soares
+
+programa 32{
+    inclua biblioteca Util --> u
+	funcao inicio() {  
+		inteiro num, sorteio
+
+		escreva("Olá, eu duvido que consiga adivinhar o\nnúmero que estou pensando.")
+		u.aguarde(1000)
+		escreva("\nEle está entre 1 e 5.\n")
+		leia(num)
+		limpa()
+		sorteio = u.sorteia(1,5)
+		
+		se(num==sorteio){
+			escreva("Você acertou! Era o número ",sorteio)
+		}senao{
+			escreva("Você errou! Tente novamente: ")
+	        enquanto(num!=sorteio){
+	            leia(num)
+	            se(num==sorteio){
+	                escreva("Acertou, ",sorteio," foi o número sorteado.")
+	            }senao{
+	                escreva("Tente novamente: ")
+	            }
+	        }
+		}
+	}
+}
